@@ -273,7 +273,7 @@ this.i18n = {
     "clockBrightness": {
         "en": "JST clock brightness",
         "ja": "時計の明るさ",
-        "zh-cn": "时钟的亮度（东京时区）"
+        "zh-cn": "东京时钟的亮度"
         // FIXME: ko
     },
     "preferBahamut": {
@@ -296,6 +296,7 @@ this.i18n = {
     },
     "preferNonFriendSummonsInFavorites": {
         "en": "Prefer non-friend summons in favorites list",
+        "zh-cn": "偏好优先显示不是朋友的召唤"
         // FIXME
     },
     "preferLimitBrokenSummons": {
@@ -358,7 +359,7 @@ this.i18n = {
         "en": "EXPERIMENTAL: Show quick skill & summon buttons",
         "ja": "実験中：アビリティと召喚石のショートカットを指示する",
         "ko": "실험중:빠른 어빌리티와 소환 버튼를 보여주기",
-        "zh-cn": "实验中：使用快速技能栏和召唤兽栏"
+        "zh-cn": "实验中：使用快速技能栏和召唤栏"
     },
     "showSkillQueue": {
         "en": "Show skill queue",
@@ -387,7 +388,7 @@ this.i18n = {
     "showPartyHelp": {
         "en": "VERY EXPERIMENTAL: Show party buff summary",
         "ja": "味方のバフ時間を指示する",
-        "zh-cn": "实验中：显示友方总的 Buff"
+        "zh-cn": "实验中：显示友方所有的 Buff"
         // FIXME: ko
     },
     "showGaugeOverlays": {
@@ -680,6 +681,7 @@ this.i18n = {
     },
     "imageSmoothingHack": {
         "en": "Disable image smoothing to reduce lag",
+        "zh-cn": "禁用图像平滑来减少卡顿"
         // FIXME: ja, ko, zh-cn
     },
     "showNetworkHud": {
@@ -786,6 +788,7 @@ this.i18n = {
     },
     "largeItemsPanel": {
         "en": "Show large icons in items panel",
+        "zh-cn": "在材料栏显示大图标"
         // FIXME
     },
     "newSkillSystem": {
@@ -797,55 +800,72 @@ this.i18n = {
         "zh-cn": "实验性：修正滑动无法激活技能按钮"
     },
     "arcarumFix": {
-        "en": "Fix mouse clicks breaking in Arcarum stages"
+        "en": "Fix mouse clicks breaking in Arcarum stages",
+        "zh-ch": "在转世中修复鼠标点击不响应的问题"
     },
     "disablePerCharacterOugiSkip": {
-        "en": "Disable toggling charge attack skip by clicking characters"
+        "en": "Disable toggling charge attack skip by clicking characters",
+        "zh-cn": "禁用点击角色切换是否跳过奥义动画的功能"
     },
     "webAPI": {
-        "en": '<a href="/content/api.html">Web API</a>: Allow websites to communicate with Viramate'
+        "en": '<a href="/content/api.html">Web API</a>: Allow websites to communicate with Viramate',
+        "zh-cn": '<a href="/content/api.html">Web API</a>: 允许网页与维拉助手通信'
     },
     "tinySupportSummons": {
-        "en": "Compact summons list"
+        "en": "Compact summons list",
+        "zh-cn": "微缩召唤选择列表"
     },
     "detailedUpgradePage": {
-        "en": "Always show skill levels on upgrade page"
+        "en": "Always show skill levels on upgrade page",
+        "zh-cn": "在武器升级界面始终显示武器技能等级"
     },
     "popupPositionFix": {
         "en": "Stop popups from appearing offscreen",
+        "zh-cn": "在后台时禁止弹窗"
     },
     "enableRaidSync": {
         "en": "Synchronize status between raid windows",
+        "zh-cn": "在 Raid 窗口间同步状态"
     },
     "enableAutomaticUpdates": {
         "en": "Enable automatic updates",
+        "zh-cn": "启用自动升级"
     },
     "hideMobageSidebar": {
         "en": "EXPERIMENTAL: Hide Mobage sidebar",
+        "zh-cn": "实验性：隐藏 Mobage 的侧边栏"
     },
     "mistakeGuard": {
-        "en": "Make stash/inventory mass sell buttons red"
+        "en": "Make stash/inventory mass sell buttons red",
+        "zh-cn": "将仓库/库存的卖出按钮标红"
     },
     "showTransientMessages": {
-        "en": "Show popup messages at the top of the page"
+        "en": "Show popup messages at the top of the page",
+        "zh-cn": "在页面顶部显示浮动消息"
     },
     "showNextRankExp": {
-        "en": "Show RP until next rank"
+        "en": "Show RP until next rank",
+        "zh-cn": "显示离下一级还差多少经验"
     },
     "globalDisable": {
-        "en": "Disable extension"
+        "en": "Disable extension",
+        "zh-cn": "禁用插件"
     },
     "alwaysShowActionTimer": {
-        "en": "Always show action timer"
+        "en": "Always show action timer",
+        "zh-cn": "始终显示动作计时器"
     },
     "showHardRaids": {
-        "en": "Show hard raid shortcuts"
+        "en": "Show hard raid shortcuts",
+        "zh-cn": "显示小岛主（hard）的书签"
     },    
     "showMagna2Raids": {
-        "en": "Show magna 2 raid shortcuts"
+        "en": "Show magna 2 raid shortcuts",
+        "zh-cn": "显示马格纳 2.0 的书签"
     },    
     "showSummonRaids": {
-        "en": "Show summon raid shortcuts"
+        "en": "Show summon raid shortcuts",
+        "zh-cn": "显示各种召唤战的书签"
     },    
 
     "name-tia": {
@@ -881,33 +901,33 @@ this.i18n = {
 
     "name-grimnir": {
         "en": "Grimnir",
-        "ja": "ティアマト",
-        "zh-cn": "提亚马特(风妈)"
+        "ja": "グリームニル",
+        "zh-cn": "军神"
     },
     "name-shiva": {
         "en": "Shiva",
-        "ja": "コロッサス",
-        "zh-cn": "克洛苏斯(高达)"
+        "ja": "シヴァ",
+        "zh-cn": "湿婆"
     },
     "name-europa": {
         "en": "Europa",
-        "ja": "リヴァイアサン",
-        "zh-cn": "利维坦(泥鳅)"
+        "ja": "エウロペ",
+        "zh-cn": "欧罗巴"
     },
     "name-alexiel": {
         "en": "Alexiel",
-        "ja": "ユグドラシル",
-        "zh-cn": "鱼骨鱼骨(土妹)"
+        "ja": "ブローディア",
+        "zh-cn": "神盾"
     },
     "name-metatron": {
         "en": "Metatron",
-        "ja": "シュヴァリエ",
-        "zh-cn": "修瓦利耶(光妈)"
+        "ja": "メタトロン",
+        "zh-cn": "梅塔特隆"
     },
     "name-avatar": {
         "en": "Avatar",
-        "ja": "セレスト",
-        "zh-cn": "塞雷斯特(暗船)"
+        "ja": "アバター",
+        "zh-cn": "阿凡达"
     },
 
 
@@ -1266,45 +1286,54 @@ this.i18n = {
     "m-guild-war-eye-vh": {
         "en": "Eye (Very Hard)",
         "ja": "目玉 (V. HARD)",
+        "zh-cn": "眼球（VH）",
         // FIXME: ko
     },
     "m-guild-war-dog-vh": {
         "en": "Dog (Very Hard)",
         "ja": "犬 (V. HARD)",
+        "zh-cn": "肉（VH）",
         // FIXME: ko
     },
     "m-guild-war-dog-ex": {
         "en": "Dog (Extreme)",
         "ja": "犬 (EXTREME)",
+        "zh-cn": "肉（EX）",
         // FIXME: ko
     },
     "m-guild-war-dog-ex-plus": {
         "en": "Dog (Extreme+)",
         "ja": "犬 (EXTREME+)",
+        "zh-cn": "肉（EX+）",
         // FIXME: ko
     },
     "m-guild-war-hell-90": {
         "en": "Nightmare 90",
         "ja": "Hell 90",
+        "zh-cn": "Hell 90",
         // FIXME: ko
     },
     "m-guild-war-hell-95": {
         "en": "Nightmare 95",
         "ja": "Hell 95",
+        "zh-cn": "Hell 95"
         // FIXME: ko
     },
     "m-trial-battles": {
         "en": "Trial Battles",
         "ja": "トライアルバトル",
+        "zh-cn": "木桩"
         // FIXME: ko
     },
     "m-fate-episodes": {
         "en": "Fate Episodes",
         "ja": "フェイトエピソード",
+        "zh-cn": "角色故事"
         // FIXME: ko
     },
     "m-set-language": {
         "en": "Set game language",
+        "zh-cn": "设置游戏语言"
         // FIXME: ja, ko
     },
 
@@ -1347,6 +1376,7 @@ this.i18n = {
     },
     "p-joinRoom": {
         "en": "Join Room",
+        "zh-cn": "加入房间",
         // FIXME
     },
     "p-tabNotFound": {
@@ -1417,7 +1447,7 @@ this.i18n = {
     "p-status": {
         "en": "{0} people, {1}% HP",
         "ja": "{0}人、残り{1}% HP",
-        "zh-cn": "{0} 人，剩余{1}%HP"
+        "zh-cn": "{0} 人，剩余 {1}%HP"
         // FIXME
     },
     "p-refill": {
@@ -1434,18 +1464,22 @@ this.i18n = {
     },
     "p-notLoggedIn": {
         "en": "You don't seem to be logged in.",
+        "zh-cn": "看上去你还没有登陆",
     },
     "p-globalDisable": {
         "en": "Extension disabled",
+        "zh-cn": "扩展已禁用"
     },
     "p-enable": {
         "en": "Enable",
     },
     "p-triedToEnable": {
         "en": "Setting changed. Reload the game.",
+        "zh-cn": "设置已改变。请重载游戏。",
     },
     "p-triedToDisable": {
         "en": "Setting changed. Reload the game.",
+        "zh-cn": "设置已改变。请重载游戏。",
     },
 
     "i-soulBerry": {
