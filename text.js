@@ -838,6 +838,15 @@ this.i18n = {
     "alwaysShowActionTimer": {
         "en": "Always show action timer"
     },
+    "showHardRaids": {
+        "en": "Show hard raid shortcuts"
+    },    
+    "showMagna2Raids": {
+        "en": "Show magna 2 raid shortcuts"
+    },    
+    "showSummonRaids": {
+        "en": "Show summon raid shortcuts"
+    },    
 
     "name-tia": {
         "en": "Tiamat",
@@ -866,6 +875,37 @@ this.i18n = {
     },
     "name-cel": {
         "en": "Celeste",
+        "ja": "セレスト",
+        "zh-cn": "塞雷斯特(暗船)"
+    },
+
+    "name-grimnir": {
+        "en": "Grimnir",
+        "ja": "ティアマト",
+        "zh-cn": "提亚马特(风妈)"
+    },
+    "name-shiva": {
+        "en": "Shiva",
+        "ja": "コロッサス",
+        "zh-cn": "克洛苏斯(高达)"
+    },
+    "name-europa": {
+        "en": "Europa",
+        "ja": "リヴァイアサン",
+        "zh-cn": "利维坦(泥鳅)"
+    },
+    "name-alexiel": {
+        "en": "Alexiel",
+        "ja": "ユグドラシル",
+        "zh-cn": "鱼骨鱼骨(土妹)"
+    },
+    "name-metatron": {
+        "en": "Metatron",
+        "ja": "シュヴァリエ",
+        "zh-cn": "修瓦利耶(光妈)"
+    },
+    "name-avatar": {
+        "en": "Avatar",
         "ja": "セレスト",
         "zh-cn": "塞雷斯特(暗船)"
     },
@@ -974,7 +1014,7 @@ this.i18n = {
     "m-magna-cel":  "name-cel",
 
     "m-hl-raids": {
-        "en": "HL Raids",
+        "en": "HL Magna",
         "ja": "HLマグナ",
         "zh-cn": "HL 马格纳"
     },
@@ -989,6 +1029,18 @@ this.i18n = {
         "ja": "ローズクイーン",
         "zh-cn": "玫瑰女皇(BBA)",
     },
+
+    "m-magna2-raids": {
+        "en": "HL Magna II",
+        "ja": "HLマグナ2",
+        "zh-cn": "HL 马格纳2"
+    },
+    "m-magna2-grimnir":  "name-grimnir",
+    "m-magna2-shiva": "name-shiva",
+    "m-magna2-europa": "name-europa",
+    "m-magna2-alexiel": "name-alexiel",
+    "m-magna2-metatron": "name-metatron",
+    "m-magna2-avatar":  "name-avatar",
 
     "m-primal-raids": {
         "en": "Summon Raids",
