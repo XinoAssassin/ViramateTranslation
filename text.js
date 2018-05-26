@@ -859,6 +859,9 @@ this.i18n = {
         "en": "Show hard raid shortcuts",
         "zh-cn": "显示小岛主（hard）的书签"
     },    
+    "showHardPlusRaids": {
+        "en": "Show hard+ raid shortcuts"
+    },    
     "showMagna2Raids": {
         "en": "Show magna 2 raid shortcuts",
         "zh-cn": "显示马格纳 2.0 的书签"
@@ -1020,6 +1023,18 @@ this.i18n = {
     "m-hard-yugu": "name-yugu",
     "m-hard-chev": "name-chev",
     "m-hard-cel":  "name-cel",
+
+    "m-hardplus-raids": {
+        "en": "Hard+ Raids",
+        "ja": "HARD+",
+        "zh-cn": "Hard+ Raids"
+    },
+    "m-hardplus-tia":  "name-tia",
+    "m-hardplus-colo": "name-colo",
+    "m-hardplus-levi": "name-levi",
+    "m-hardplus-yugu": "name-yugu",
+    "m-hardplus-chev": "name-chev",
+    "m-hardplus-cel":  "name-cel",
 
     "m-magna-raids": {
         "en": "Magna Raids",
