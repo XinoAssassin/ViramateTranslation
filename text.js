@@ -93,6 +93,9 @@ this.i18n = {
         // FIXME
         "zh-cn": "Bug 修复 & 解决方案"
     },
+    "group-settings": {
+        "en": "Settings",
+    },
     "group-language": {
         "en": "Language",
         "ja": "言語",
@@ -227,6 +230,18 @@ this.i18n = {
         "zh-cn": "杂项"
     },
 
+    "exportSettings": {
+        "en": "Export settings"
+    },
+    "confirmReplaceSettings": {
+        "en": "Enable importing/resetting settings"
+    },
+    "importSettings": {
+        "en": "Import settings"
+    },
+    "resetAllSettings": {
+        "en": "Reset to defaults"
+    },
     "notifyOnFullAP": {
         "en": "Notify when AP is full",
         "ja": "AP全回復する時",
@@ -243,7 +258,7 @@ this.i18n = {
     "notifyBeforeDefendOrder": {
         "en": "Notify before a Defend Order",
         "ja": "DOが発生する直前",
-        "zh-cn": "Defend Order 开始前通知"
+        "zh-cn": "DO 开始前通知"
         // FIXME
     },
     "showBookmarks": {
@@ -273,7 +288,7 @@ this.i18n = {
     "clockBrightness": {
         "en": "JST clock brightness",
         "ja": "時計の明るさ",
-        "zh-cn": "东京时区时间的亮度"
+        "zh-cn": "东京时钟的亮度"
         // FIXME: ko
     },
     "preferBahamut": {
@@ -317,12 +332,6 @@ this.i18n = {
         "ko": "기본 소환석",
         "zh-cn": "默认属性"
     },
-    "allowDragSelect": {
-        "en": "EXPERIMENTAL: Allow drag-selecting items",
-        "ja": "実験中：クリック&ドラッグを有効にする",
-        "ko": "실험중:목록 클릭과드래그를 사용하기",
-        "zh-cn": "实验性：允许拖放物品"
-    },
     "submenuSize": {
         "en": "Submenu size",
         "ja": "サブメニューのサイズ",
@@ -332,7 +341,7 @@ this.i18n = {
     "fixJPFontRendering": {
         "en": "Improve Japanese font rendering",
         "ja": "フォンレンダリングを改善する",
-        "zh-cn": "改善日文字体的渲染效果"
+        "zh-cn": "日文字体渲染改善"
         // FIXME: ko
     },
     "disableMiddleRightClick": {
@@ -353,13 +362,13 @@ this.i18n = {
         "en": "Show skill cooldowns in main view",
         "ja": "アビリティの再使用時間を指示する",
         "ko": "어빌리티CD를 메인뷰의 보여주기",
-        "zh-cn": "在主视图中显示技能 CD"
+        "zh-cn": "在主视图中显示技能冷却"
     },
     "showQuickPanels": {
         "en": "EXPERIMENTAL: Show quick skill & summon buttons",
         "ja": "実験中：アビリティと召喚石のショートカットを指示する",
         "ko": "실험중:빠른 어빌리티와 소환 버튼를 보여주기",
-        "zh-cn": "实验性：使用快速技能栏和召唤栏"
+        "zh-cn": "实验中：使用快速技能栏和召唤栏"
     },
     "showSkillQueue": {
         "en": "Show skill queue",
@@ -388,7 +397,7 @@ this.i18n = {
     "showPartyHelp": {
         "en": "VERY EXPERIMENTAL: Show party buff summary",
         "ja": "味方のバフ時間を指示する",
-        "zh-cn": "非常实验性：显示友方所有的 Buff"
+        "zh-cn": "实验中：显示友方所有的 Buff"
         // FIXME: ko
     },
     "showGaugeOverlays": {
@@ -543,7 +552,7 @@ this.i18n = {
             "<li>「<b>K</b>」= Stamp</li>" +
             "</ul>",
         // FIXME: ko
-        "zh-cn": "实验性：启用<br><hr>" +
+        "zh-cn": "实验中：启用<br><hr>" +
             "自定义快捷键正在开发中，未来<i>某日</i>会实装<br>现在的设定：<br><br>" +
              "<b>通用快捷键</b><br>" +
             "<ul>" + 
@@ -580,7 +589,7 @@ this.i18n = {
     "dropdownFix": {
         "en": "EXPERIMENTAL: Dropdown/textbox mouse fix",
         "ja": "実験中：マウスに関するのドロップダウンとテキストボックスのバグを治す",
-        "zh-cn": "实验性： 修复指针在下拉菜单和文本框的 bug"
+        "zh-cn": "实验中： Dropdown/textbox mouse fix"
         // FIXME: ko
     },
     "oneClickQuickSummons": {
@@ -617,12 +626,6 @@ this.i18n = {
         "en": "Only show raids panel if you have >= 3 BP",
         "ja": "3BP以上の場合のみマルチバトル一覧のパネルを表示する",
         "zh-cn": "只有当你有 3BP 以上时才显示 Raid 面板"
-        // FIXME: ko
-    },
-    "realtimeRaidList": {
-        "en": "Refresh list automatically when on raids page",
-        "ja": "自動的にマルチバトル一覧を更新する",
-        "zh-cn": "当位于 Raids 页面是自动刷新列表"
         // FIXME: ko
     },
     "bookmarksInactiveIcon": {
@@ -708,12 +711,6 @@ this.i18n = {
         "zh-cn": "在技能施放时显示计时"
         // FIXME: ko
     },
-    "autofillBackupTweets": {
-        "en": "Auto-fill Japanese name when requesting backup via Twitter",
-        "ja": "ツイッターの救援依頼のテキスト入力で敵の名前を追加する",
-        "zh-cn": "在放推时自动填入怪的日文名"
-        // FIXME: ko
-    },
     "moveCoOpFooter": {
         "en": "Move co-op room footer to the top of the window",
         "ja": "共闘クエストのルームのフッターをページの上に移動する",
@@ -793,15 +790,13 @@ this.i18n = {
     },
     "newSkillSystem": {
         "en": "EXPERIMENTAL: New skill system v2.0 (fixes cooldown resets and party shuffles)",
-        "zh-cn": "实验性：新的技能系统（修复一些角色的重置技能，比如卡特比拉的重置等）"
+        "zh-cn": "实验性：新的技能系统（修复一些角色的重置技能，比如卡特比拉的重置等"
     },
     "disableButtonAnimations": {
         "en": "Disable animations on some buttons to fix ignored clicks",
-        "zh-cn": "在某些按钮上禁用动画以修复被无视的点击"
     },
     "frameskipRatio": {
         "en": "Only draw 1/n of frames",
-        "zh-cn": "只渲染1/n的帧数"
     },
     "buttonSwipeFix": {
         "en": "EXPERIMENTAL: Fix swipes not activating skill buttons",
@@ -809,7 +804,7 @@ this.i18n = {
     },
     "arcarumFix": {
         "en": "Fix mouse clicks breaking in Arcarum stages",
-        "zh-ch": "在转世中修复不响应鼠标点击的问题"
+        "zh-ch": "在转世中修复鼠标点击不响应的问题"
     },
     "disablePerCharacterOugiSkip": {
         "en": "Disable toggling charge attack skip by clicking characters",
@@ -849,7 +844,7 @@ this.i18n = {
     },
     "showTransientMessages": {
         "en": "Show boss charge attack names at top of page",
-        "zh-cn": "在游戏页面顶端显示boss特动名字"
+        "zh-cn": "在页面顶部显示浮动消息"
     },
     "tranquilizeFinger": {
         "en": "Weaken broken touch -> mouse event adapter"
@@ -861,6 +856,9 @@ this.i18n = {
     "globalDisable": {
         "en": "Disable extension",
         "zh-cn": "禁用插件"
+    },
+    "disableGameAjax": {
+        "en": "Disable communication with game server<br><i>(Will break many features)</i>",
     },
     "alwaysShowActionTimer": {
         "en": "Always show action timer",
@@ -883,7 +881,6 @@ this.i18n = {
     },
     "highlightSummons": {
         "en": "Highlight summons that match the suggested element for the quest",
-        "zh-cn": "高亮显示任务建议属性的召唤"
     },
 
     "name-tia": {
