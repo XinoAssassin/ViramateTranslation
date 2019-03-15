@@ -179,6 +179,7 @@ this.i18n = {
     },
     "group-version": {
         "en": "Version",
+        "zh-cn": "版本"
     },
     "group-results": {
         "en": "Results",
@@ -234,16 +235,20 @@ this.i18n = {
     },
 
     "exportSettings": {
-        "en": "Export settings"
+        "en": "Export settings",
+        "zh-cn": "导出设置"
     },
     "confirmReplaceSettings": {
-        "en": "Enable importing/resetting settings"
+        "en": "Enable importing/resetting settings",
+        "zh-cn": "启用导出/重置设置"
     },
     "importSettings": {
-        "en": "Import settings"
+        "en": "Import settings",
+        "zh-cn": "导入设置"
     },
     "resetAllSettings": {
-        "en": "Reset to defaults"
+        "en": "Reset to defaults",
+        "zh-cn": "恢复默认设置"
     },
     "notifyOnFullAP": {
         "en": "Notify when AP is full",
@@ -314,7 +319,7 @@ this.i18n = {
     },
     "preferNonFriendSummonsInFavorites": {
         "en": "Prefer non-friend summons in favorites list",
-        "zh-cn": "偏好优先显示不是朋友的召唤"
+        "zh-cn": "优先显示非朋友的召唤"
         // FIXME
     },
     "preferLimitBrokenSummons": {
@@ -832,9 +837,11 @@ this.i18n = {
     },
     "disableButtonAnimations": {
         "en": "Disable animations on some buttons to fix ignored clicks",
+        "zh-cn": "禁用某些按钮的动画来修复被忽略的点击"
     },
     "frameskipRatio": {
         "en": "Only draw 1/n of frames",
+        "zh-cn": "只渲染 1/n 的帧数"
     },
     "buttonSwipeFix": {
         "en": "EXPERIMENTAL: Fix swipes not activating skill buttons",
@@ -885,7 +892,8 @@ this.i18n = {
         "zh-cn": "在页面顶部显示浮动消息"
     },
     "tranquilizeFinger": {
-        "en": "Weaken broken touch -> mouse event adapter"
+        "en": "Weaken broken touch -> mouse event adapter",
+        "zh-cn": "弱化误触 -> 鼠标事件适配"
     },
     "showNextRankExp": {
         "en": "Show RP until next rank",
@@ -897,6 +905,7 @@ this.i18n = {
     },
     "disableGameAjax": {
         "en": "Disable communication with game server<br><i>(Will break many features)</i>",
+        "zh-cn": "禁用与游戏服务器的通讯<i>（会让很多功能不能用）</i>"
     },
     "alwaysShowActionTimer": {
         "en": "Always show action timer",
@@ -907,7 +916,8 @@ this.i18n = {
         "zh-cn": "显示小岛主（hard）的书签"
     },    
     "showHardPlusRaids": {
-        "en": "Show hard+ raid shortcuts"
+        "en": "Show hard+ raid shortcuts",
+        "zh-cn": "显示 Hard+ 的书签"
     },    
     "showMagna2Raids": {
         "en": "Show magna 2 raid shortcuts",
@@ -919,18 +929,23 @@ this.i18n = {
     },
     "highlightSummons": {
         "en": "Highlight summons from the element tab suggested by the game",
+        "zh-cn": "高亮游戏建议的对应属性的召唤"
     },
     "hyperlinkUserNames": {
         "en": "Make user names clickable links in summons list",
+        "zh-cn": "使召唤列表中的用户昵称可点击"
     },
     "autofocusDropdowns": {
         "en": "Auto-select quantity dropdown in shop popups",
+        "zh-cn": "在商店的弹出窗口中自动选择数量"
     },
     "storyTextScale": {
         "en": "Size of text in story sequences",
+        "zh-cn": "故事序列的字体大小"
     },
     "fastCombatAnimations": {
-        "en": "Fast character panel transitions"
+        "en": "Fast character panel transitions",
+        "zh-cn": "快速角色面板过渡"
     },
 
     "name-tia": {
