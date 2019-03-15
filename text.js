@@ -132,6 +132,9 @@ this.i18n = {
         "ko": "잡다한",
         "zh-cn": "其他"
     },
+    "group-popups": {
+        "en": "Popups",
+    },
     "group-hotkeys": {
         "en": "Hotkeys",
         "ja": "キーバインド",
@@ -460,38 +463,71 @@ this.i18n = {
     },
     "condensedUI": {
         "en": "Condensed user interface<br>" +
-            "<ul>" +
+            "<ul style='margin-bottom: -0.5em'>" +
             "<li>Smaller supply icons</li>" +
             "<li>Smaller job list items</li>" +
             "<li>Smaller subskill list items</li>" +
             "</ul>",
         "ja": "UIを縮小する" +
-            "<ul>" +
+            "<ul style='margin-bottom: -0.5em'>" +
             "<li>回復アイテムのアイコンを縮小する</li>" +
             "<li>ジョブアイコンを縮小する</li>" +
             "<li>EXアビリティのアイコンを縮小する</li>" +
             "</ul>",
         "ko": "미니UI인터페이스" +
-            "<ul>" +
+            "<ul style='margin-bottom: -0.5em'>" +
             "<li>미니회복 아이템의 아이콘</li>" +
             "<li>미니직업 아이콘</li>" +
             "<li>미니EX어빌리티의 아이콘</li>" +
             "</ul>",
         "zh-cn": "精简 UI 界面" +
-            "<ul>" +
+            "<ul style='margin-bottom: -0.5em'>" +
             "<li>缩小补给图标</li>" +
             "<li>缩小职业图标</li>" +
             "<li>缩小 EX 技能列表图标</li>" +
             "</ul>",
     },
-    "keyboardShortcuts2": {
+    "keyboardShortcuts3": {
         "en": "EXPERIMENTAL: Enable<br><hr>" +
             "Customizable shortcuts are coming <i>someday!</i><br>Until then - a quick reference:<br><br>" +
             "<b>General Shortcuts</b><br>" +
             "<ul>" + 
             "<li><b>Space</b> to select OK buttons.</li>" +
             "<li><b>`</b> or <b>Escape</b> to select cancel buttons.</li>" +
-            "</ul>" +
+            "<li><b>A</b> for 'auto select'.</li>" +
+            "<li><b>R</b> for 'reset bonus'.</li>" +
+            "</ul>",
+        "ja": "実験中：有効にする<br><hr>" +
+            "カスタマイズ可能なキーバインドは実施する予定です。<br>現在の設定はこちら：<br><br>" +
+            "<b>基準</b><br>" +
+            "<ul>" + 
+            "<li>「<b>SPACE</b>」= OK</li>" +
+            "<li>「<b>`</b>」か「<b>ESC</b>」= キャンセル</li>" +
+            "<li><b>A</b> for 'auto select'.</li>" +
+            "<li><b>R</b> for 'reset bonus'.</li>" +
+            "</ul>",
+        "ko": "실험중:Enable<br><hr>" +
+            "사용자정의 키바인딩이 곧 올 겁니다!<br>그때까지 - 현재설정:<br><br>" +
+            "<b>General Shortcuts</b><br>" +
+            "<ul>" + 
+            "<li>「<b>SPACE</b>」= OK</li>" +
+            "<li>「<b>`</b>」과「<b>ESC</b>」= 취소</li>" +
+            "<li><b>A</b> for 'auto select'.</li>" +
+            "<li><b>R</b> for 'reset bonus'.</li>" +
+            "</ul>",
+        // FIXME: ko
+        "zh-cn": "实验中：启用<br><hr>" +
+            "自定义快捷键正在开发中，未来<i>某日</i>会实装<br>现在的设定：<br><br>" +
+             "<b>通用快捷键</b><br>" +
+            "<ul>" + 
+            "<li><b>空格</b> OK 按钮</li>" +
+            "<li><b>`</b> or <b>ESC</b> cancel 按钮</li>" +
+            "<li><b>A</b> for 'auto select'.</li>" +
+            "<li><b>R</b> for 'reset bonus'.</li>" +
+            "</ul>",
+    },
+    "keyboardShortcutsCombat": {
+        "en": "EXPERIMENTAL: Enable in combat<br><hr>" +
             "<b>Combat Shortcuts</b><br>" + 
             "<ul>" + 
             "<li><b>1/2/3/4</b> to select characters.</li>" +
@@ -506,7 +542,8 @@ this.i18n = {
             "<li><b>H</b> to open healing window.</li>" +
             "<li><b>Escape</b> to empty the skill queue.</li>" +
             "<li><b>K</b> to open the Stickers window.</li>" +
-            "</ul>",
+            "</ul>"
+        /*
         "ja": "実験中：有効にする<br><hr>" +
             "カスタマイズ可能なキーバインドは実施する予定です。<br>現在の設定はこちら：<br><br>" +
             "<b>基準</b><br>" +
@@ -574,6 +611,7 @@ this.i18n = {
             "<li><b>Escape</b> 清空技能队列。</li>" +
             "<li><b>K</b> 打开表情窗口</li>" +
             "</ul>",
+        */
     },
     "focusQuickPanels": {
         "en": "Highlight quick panels instead of opening character panels",
@@ -880,7 +918,19 @@ this.i18n = {
         "zh-cn": "显示各种召唤战的书签"
     },
     "highlightSummons": {
-        "en": "Highlight summons that match the suggested element for the quest",
+        "en": "Highlight summons from the element tab suggested by the game",
+    },
+    "hyperlinkUserNames": {
+        "en": "Make user names clickable links in summons list",
+    },
+    "autofocusDropdowns": {
+        "en": "Auto-select quantity dropdown in shop popups",
+    },
+    "storyTextScale": {
+        "en": "Size of text in story sequences",
+    },
+    "fastCombatAnimations": {
+        "en": "Fast character panel transitions"
     },
 
     "name-tia": {
